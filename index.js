@@ -36,7 +36,7 @@ client.on("messageCreate", async message => {
   if(message.content == "hallo"){
 	message.channel.send("Hallo "+message.author.username)
   }
-  if(message.content == prefix+"botinfo"{
+  if(message.content == prefix+"botinfo"){
 	message.channel.send("Hier ist die Botinfo:\nDeveloped by hyped.lukas\n Ping: "+client.ws.ping)
    }
   if(message.content.startsWith(prefix+"help")){
